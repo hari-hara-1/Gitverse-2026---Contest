@@ -6,4 +6,8 @@ You are working on a feature branch along with your teammates. While trying to m
 Explain the steps and Git commands required to identify the conflict, resolve it, and complete the merge successfully.
 
 Your solution:
-
+git status
+Open your editor, find the <<<<<<< ======= >>>>>>> markers, and fix the code
+git add .
+git commit -m "Resolve merge conflict"
+git push origin <your-branch-name>

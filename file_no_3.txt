@@ -7,3 +7,11 @@ Explain the steps and Git commands required to identify the conflict, resolve it
 
 Your solution:
 
+git checkout main
+git pull origin main
+git checkout questions/no2
+git merge main
+git status
+git add .
+git commit -m "Resolved merge conflict"
+git push origin questions/no2

@@ -7,3 +7,9 @@ Explain the steps and Git commands required to identify the conflict, resolve it
 
 Your solution:
 
+When I try to merge my feature branch into the main branch, I first switch to the main branch using git checkout main and then run git merge <feature-branch>.
+If there is a conflict, Git will show a message saying that there are merge conflicts and the merge is paused.
+To identify the conflict, I use git status, which shows the files that have conflicts. Then I open those files, and inside I will see markers like <<<<<<<, =======, and >>>>>>>.
+These show the differences between my changes and the changes from the main branch. I manually edit the file to keep the correct code and remove these markers.
+After fixing all the conflicts, I stage the resolved files using git add .. Then I complete the merge by running git commit. This finalizes the merge with the resolved changes.
+Finally, I push the updated main branch to GitHub using git push origin main. So overall, the steps are: try merging, identify conflicts using git status, manually fix them in the files, add the changes, commit, and then push the final merged code.

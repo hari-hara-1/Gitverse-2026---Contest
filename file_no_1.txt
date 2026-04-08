@@ -7,3 +7,14 @@ Explain the steps and Git commands required to push your branch to the remote re
 
 Your solution:
 
+git checkout questions/no1
+git status
+git push -u origin questions/no1
+git checkout main
+git pull origin main
+git checkout questions/no1
+git merge main
+git status
+git add .
+git commit -m "Update branch with latest main"
+git push origin questions/no1

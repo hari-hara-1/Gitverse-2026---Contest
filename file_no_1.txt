@@ -7,3 +7,15 @@ Explain the steps and Git commands required to push your branch to the remote re
 
 Your solution:
 
+git checkout questions/no1
+git add .
+git commit -m "Add solution for question 1"
+git push origin questions/no1
+
+# If branch is not up to date with main:
+
+# GitHub will show a warning that the branch is behind or has conflicts
+# You need to update your branch:
+git checkout questions/no1
+git pull origin main
+

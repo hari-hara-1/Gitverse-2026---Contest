@@ -7,3 +7,15 @@ Explain the steps and Git commands required to identify the conflict, resolve it
 
 Your solution:
 
+git checkout main
+git pull origin main
+git merge questions/no2
+
+git status
+
+# (manually edit conflicted files to resolve)
+
+git add .
+git commit -m "Resolved merge conflicts"
+
+git push origin main

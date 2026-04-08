@@ -7,5 +7,6 @@ Explain the steps and Git commands required to identify the conflict, resolve it
 
 Your solution:
 
-git checkout -b questions/no2
-git add .
+git status
+git add resolved.txt
+git commit

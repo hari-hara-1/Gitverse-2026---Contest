@@ -7,3 +7,7 @@ Explain the steps and Git commands required to identify the conflict, resolve it
 
 Your solution:
 
+git git status
+git add file_no_3.txt
+git commit -m "mesage"
+git push origin questions/no3

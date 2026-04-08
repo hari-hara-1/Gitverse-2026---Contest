@@ -7,3 +7,19 @@ Explain the steps and Git commands required to identify the conflict, resolve it
 
 Your solution:
 
+git checkout questions/no2
+git add .
+git commit -m "Add solution for question 2"
+
+git checkout main
+git pull origin main
+git merge questions/no2
+
+git status
+
+# resolve conflicts manually in files
+
+git add .
+git commit -m "Resolve merge conflicts"
+
+git push origin main

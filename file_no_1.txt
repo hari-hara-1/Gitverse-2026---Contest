@@ -6,4 +6,18 @@ You have completed your work on a feature branch and want to contribute it to th
 Explain the steps and Git commands required to push your branch to the remote repository and create a Pull Request. Also mention what happens if your branch is not up to date with the remote main branch.
 
 Your solution:
-
+as the readme says no explanation 
+cd <repo-folder>
+"Git status"  
+"git add ." 
+"git commit -m '1st commit'" 
+"git push -u origin <branch-name>"  
+then i will go the GitHub.com and click on the "Compare & pull request" option
+the fill out the title and decription
+Click the green "Create pull request" button.
+"git checkout main"  
+"git pull origin main" 
+"git checkout <branch-name>" 
+"git merge main" 
+assuming if there is no merge conflict then
+"git push origin <branch-name>"  -we will push the code 
